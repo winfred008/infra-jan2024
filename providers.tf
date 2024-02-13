@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "winfred008-terraform-state"
+    bucket = "winfred008"
     key    = "global/s3/terraform.tfstate"
     region = "us-east-2"
-    dynamo_table = "terraform-state"
+    dynamo_table = "winfred008"
     encrypt = true
   }
 }

@@ -3,7 +3,7 @@ terraform {
     bucket = "winfred008"
     key    = "global/s3/terraform.tfstate"
     region = "us-east-2"
-    dynamo_table = "terraform-state"
+    dynamodb_table = "terraform-state"
     encrypt = true
   }
 }
